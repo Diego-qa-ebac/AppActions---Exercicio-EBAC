@@ -7,7 +7,7 @@ export const checkoutPage = {
         cy.wait(500); 
 
         cy.get('[data-testid="continueShopping"]').click();
-        cy.wait(1000);
+        cy.wait(500);
 
         cy.get('[data-testid="home-product-list"] > [style="padding-right: 10px; padding-left: 10px;"] > :nth-child(1) > [style="margin: 5px 7px; border-color: rgb(128, 128, 128); border-width: 0.5px; border-radius: 15px; width: 414px;"] > [data-testid="productDetails"]')
             .click();
